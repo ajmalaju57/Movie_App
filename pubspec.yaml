@@ -1,0 +1,58 @@
+name: movie_show
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  get: ^4.6.6
+  lottie: ^3.1.0
+  cached_network_image: ^3.3.1
+  flutter_widget_from_html: ^0.14.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/
+
+
+  fonts:
+    - family: Inter-Regular
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+    - family: Inter-Medium
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+
+    - family: Inter-SemiBold
+      fonts:
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Inter-Bold
+      fonts:
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
