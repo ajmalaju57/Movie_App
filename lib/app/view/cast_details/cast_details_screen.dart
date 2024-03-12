@@ -33,7 +33,7 @@ class CastDetailsScreen extends StatelessWidget {
                     mainAxisSpacing: 16,
                     crossAxisSpacing: 16,
                     childAspectRatio: 0.9),
-                itemCount: 10,
+                itemCount: castData.length,
                 itemBuilder: (context, index) {
                   return CategoryContainer(
                     imageUrl: castData[index].person?.image?.original,
